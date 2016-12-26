@@ -1,0 +1,20 @@
+<h3>New School Class Form</h3>
+
+<%= form_for(@school_class) do |f| %>
+
+  <%= f.label :title %>
+  <br>
+  <%= f.text_field :title %>
+
+  <br>
+  <br>
+
+  <%= f.label :room_number %>
+  <br>
+  <%= f.text_area :room_number %>
+
+  <br>
+  <br>
+
+  <%= f.submit %>
+<% end %>

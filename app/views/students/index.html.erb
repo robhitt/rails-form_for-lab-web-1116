@@ -1,0 +1,3 @@
+<% @students.each do |student|%>
+  <h1><%= student.to_s if student.first_name && student.first_name %></h1>
+<% end %>
